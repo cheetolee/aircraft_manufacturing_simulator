@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<metadata>
+		<factory type="metal-factory">
+			<icones>
+				<icone type="empty" path="src/ressources/UMP0%.png"/>
+				<icone type="one-third" path="src/ressources/UMP33%.png"/>
+				<icone type="two-thirds" path="src/ressources/UMP66%.png"/>
+				<icone type="full" path="src/ressources/UMP100%.png"/>
+			</icones>
+			<sortie type = "metal"/>
+			<interval-production>100</interval-production>
+		</factory>
+		<factory type="wing-factory">
+			<icones>
+				<icone type="empty" path="src/ressources/UT0%.png"/>
+				<icone type="one-third" path="src/ressources/UT33%.png"/>
+				<icone type="two-thirds"  path="src/ressources/UT66%.png"/>
+				<icone type="full" path="src/ressources/UT100%.png"/>
+			</icones>
+			<input type="metal" quantity="2"/>
+			<output type="wing"/>
+			<interval-production>50</interval-production>
+		</factory>
+		<factory type="engine-factory">
+			<icones>			
+				<icone type="empty" path="src/ressources/UM0%.png"/>
+				<icone type="one-third" path="src/ressources/UM33%.png"/>
+				<icone type="two-thirds"  path="src/ressources/UM66%.png"/>
+				<icone type="full" path="src/ressources/UM100%.png"/>
+			</icones>
+			<input type="metal" quantity="4"/>
+			<output type="engine"/>
+			<interval-production>75</interval-production>
+		</factory>
+		<factory type="assembly-factory">
+			<icones>
+				<icone type="empty" path="src/ressources/UA0%.png"/>
+				<icone type="one-third" path="src/ressources/UA33%.png"/>
+				<icone type="two-thirds"  path="src/ressources/UA66%.png"/>
+				<icone type="full" path="src/ressources/UA100%.png"/>
+			</icones>
+			<input type="wing" quantity="2"/>
+			<input type="engine" quantity="4"/>
+			<output type="aircraft"/>
+			<interval-production>110</interval-production>
+		</factory>
+		<factory type="warehouse">
+			<icones>
+				<icone type="empty" path="src/ressources/E0%.png"/>
+				<icone type="one-third" path="src/ressources/E33%.png"/>
+				<icone type="two-thirds"  path="src/ressources/E66%.png"/>
+				<icone type="full" path="src/ressources/E100%.png"/>
+			</icones>
+			<input type="aircraft" capacity="5"/>
+		</factory>
+	</metadata>
+
+	<simulation>
+		<factory type="metal-factory" id="11" x="32" y="32"/>
+		<factory type="wing-factory" id="21" x="320" y="32"/>
+		<factory type="assembly-factory" id="41" x="160" y="192"/>
+		<factory type="warehouse" id="51" x="640" y="192"/>
+		<factory type="metal-factory" id="13" x="544" y="576"/>
+		<factory type="metal-factory" id="12" x="96" y="352"/>
+		<factory type="engine-factory" id="31" x="320" y="352"/>
+		<roads>
+			<road from="11" to="21" />
+			<road from="21" to="41" />
+			<road from="41" to="51" />
+			<road from="12" to="31" />
+			<road from="13" to="31" />
+			<road from="31" to="41" />
+		</roads>
+	</simulation>
+
+</configuration>

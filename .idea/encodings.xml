@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Ressources/E0%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/E100%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/E33%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/E66%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UA0%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UA100%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UA33%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UA66%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UM0%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UM100%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UM33%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UM66%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UMP0%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UMP100%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UMP33%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UMP66%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UT0%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UT100%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UT33%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/UT66%.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/aile.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/aircraft.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/configuration.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/engine.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Ressources/metal.png" charset="windows-1252" />
+  </component>
+</project>
